@@ -1,20 +1,21 @@
 {
-  "name": "luxorld-ltd.---luxury-real-estate",
+  "homepage": "https://thuccess.github.io/luxorld-real-estate",
+  "name": "luxorld",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "export": "next export",
-  "deploy": "next build && next export && gh-pages -d out"
-}
-,
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "framer-motion": "^11.3.18",
     "nodemailer": "^7.0.9",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^7.9.4"
   },
   "devDependencies": {
