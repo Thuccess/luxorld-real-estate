@@ -1,0 +1,28 @@
+{
+  "name": "luxorld-ltd.---luxury-real-estate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "deploy": "next build && next export && gh-pages -d out"
+}
+,
+  "dependencies": {
+    "framer-motion": "^11.3.18",
+    "nodemailer": "^7.0.9",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "gh-pages": "^6.3.0",
+    "serve": "^14.2.5",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
